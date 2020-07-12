@@ -1,6 +1,6 @@
 bukvar = "абвгдеёжзийклмнопрстуфхцчшщъыьэюяабвгдеёжзийклмнопрстуфхцчшщъыьэюя"
 message = str(input("введите сообщение для шифрования"))
-key = int(input("введите ключ для кодирования"))
+key = int(input("введите ключ для кодирования от '0' до '32'"))
 message = message.lower()
 strangeword = ""
 for bukva in message:
